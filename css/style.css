@@ -267,6 +267,10 @@ p {
   font-size: 15px;
   color: #8b9aab; }
 
+.jumbotron p {
+  padding-top: 2rem;
+  text-align: center; }
+
 .main-block {
   padding: 80px 0; }
 
@@ -292,7 +296,7 @@ header {
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-info:hover {
-    background: #2fb2c3; }
+    background: #ffc72c; }
 
 .input-group-addon {
   padding: .5rem 0.15rem; }
@@ -439,13 +443,16 @@ COUNDOWN TIMER
       margin-bottom: 1rem; } }
 
 .btn-success {
+  font-family: 'HelveticaCondensed', sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 17px 28px;
-  background: #001489;
-  border: none; }
+  background: #ffc72c;
+  border: none;
+  color: #3f4b5e;
+  text-transform: uppercase; }
   .btn-success:hover {
-    background: #1fb35f; }
+    background-color: #ffc72c; }
 
 .btn-form {
   display: inline-block;
@@ -924,8 +931,8 @@ footer {
   .social-icons a {
     width: 43px;
     height: 43px;
-    background: #30abba;
-    color: #98d5dd;
+    background: #ffc72c;
+    color: #3f4b5e;
     border-radius: 50%;
     display: inline-block;
     -webkit-transition: 0.3s;

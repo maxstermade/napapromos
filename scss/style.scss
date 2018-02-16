@@ -67,6 +67,8 @@ body {
     margin: 0;
 }
 
+
+
 a:focus {
     outline: thin dotted;
 }
@@ -278,6 +280,12 @@ p {
     color: $text-color;
 }
 
+.jumbotron p{
+  padding-top:2rem;
+  text-align:center;
+}
+
+
 .main-block {
     padding: 80px 0;
 }
@@ -307,7 +315,7 @@ header {
     padding: 9px 33px;
     transition: 0.3s;
     &:hover {
-        background: #2fb2c3;
+        background: $secondary-color;
     }
 }
 
@@ -482,15 +490,19 @@ COUNDOWN TIMER
 }
 
 .btn-success {
+    font-family: 'HelveticaCondensed', sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding: 17px 28px;
-    background: $primary-color;
+    background: $secondary-color;
     border: none;
+    color: $dark;
+    text-transform: uppercase;
     &:hover {
-        background: #1fb35f;
+      background-color: $secondary-color;
     }
 }
+
 
 .btn-form {
   display: inline-block;
@@ -1042,8 +1054,8 @@ footer {
     a {
         width: 43px;
         height: 43px;
-        background: #30abba;
-        color: #98d5dd;
+        background: $secondary-color;
+        color: $dark;
         border-radius: 50%;
         display: inline-block;
         transition: 0.3s;
