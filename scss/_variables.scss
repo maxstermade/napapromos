@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Font
+   ========================================================================== */
+
+$bold: 700;
+$medium: 400;
+$thin: 300;
+
+
+@font-face {
+	font-family: "HelveticaCondensed";
+	src: url('fonts/Helvetica-Condensed-Bold.eot');
+	src: url('fonts/Helvetica-Condensed-Bold.eot?#iefix')
+		format('embedded-opentype'),
+		url('fonts/Helvetica-Condensed-Bold.woff2') format('woff2'),
+		url('fonts/Helvetica-Condensed-Bold.woff') format('woff'),
+		url('fonts/Helvetica-Condensed-Bold.ttf') format('truetype'),
+		url('fonts/Helvetica-Condensed-Bold.svg#Helvetica Condensed')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Aileron";
+	src: url('fonts/Aileron-Regular.eot');
+	src: url('fonts/Aileron-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Aileron-Regular.woff2') format('woff2'),
+		url('fonts/Aileron-Regular.woff') format('woff'),
+		url('fonts/Aileron-Regular.ttf') format('truetype'),
+		url('fonts/Aileron-Regular.svg#Aileron') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Aileron";
+	src: url('fonts/Aileron-Bold.eot');
+	src: url('fonts/Aileron-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Aileron-Bold.woff2') format('woff2'),
+		url('fonts/Aileron-Bold.woff') format('woff'),
+		url('fonts/Aileron-Bold.ttf') format('truetype'),
+		url('fonts/Aileron-Bold.svg#Aileron') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Aileron";
+	src: url('fonts/Aileron-Italic.eot');
+	src: url('fonts/Aileron-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Aileron-Italic.woff2') format('woff2'),
+		url('fonts/Aileron-Italic.woff') format('woff'),
+		url('fonts/Aileron-Italic.ttf') format('truetype'),
+		url('fonts/Aileron-Italic.svg#Aileron') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NapaIcons';
+	src: url('fonts/Napa-Icons.eot');
+	src: url('fonts/Napa-Icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Napa-Icons.woff') format('woff'),
+		url('fonts/Napa-Icons.ttf') format('truetype'),
+		url('fonts/Napa-Icons.svg#NapaIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ==========================================================================
+   Color
+   ========================================================================== */
+
+$primary-color: #001489;
+$secondary-color: #ffc72c;
+$dark: #3f4b5e;
+$light: #f6fbfc;
+$gray: #7e8388;
+$white: #ffffff;
+$text-color: #8b9aab;
