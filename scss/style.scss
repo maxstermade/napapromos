@@ -1015,7 +1015,7 @@ figure.effect-lily:hover p {
    ============================================================== */
 
 footer {
-    background: $primary-color;
+    background: $midnight;
     padding: 50px 0;
 }
 
@@ -1110,6 +1110,19 @@ footer {
         color: $white;
         margin: 20px;
     }
+}
+
+.nol-footer {
+    margin-top: 34px;
+    color: #ffc72c;
+    min-height: 490px;
+    padding-bottom: 100px;}
+
+body .nol-ui h1, body.nol-ui h2, body .nol-ui h2, body.nol-ui h3, body .nol-ui h3, body.nol-ui h4, body .nol-ui h4, body.nol-ui h5, body .nol-ui h5, body.nol-ui h6, body .nol-ui h6 {
+    font-family: HelveticaCondensed, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
 }
 
 

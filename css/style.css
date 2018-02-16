@@ -241,21 +241,21 @@ h2 {
   font-family: 'HelveticaCondensed', sans-serif;
   font-weight: 700;
   font-size: 58px;
-  color: #3f4b5e; }
+  color: #333; }
   @media (max-width: 576px) {
     h2 {
       font-size: 34px; } }
 
 h3 {
   font-size: 35px;
-  color: #3f4b5e; }
+  color: #333; }
   @media (max-width: 768px) {
     h3 {
       font-size: 27px; } }
 
 h4 {
   font-size: 24px;
-  color: #3f4b5e; }
+  color: #333; }
 
 h5 {
   font-size: 22px; }
@@ -282,7 +282,7 @@ header {
    Font
    ========================================================================== */
 .navbar-light .navbar-nav .nav-link {
-  color: #3f4b5e;
+  color: #333;
   padding-right: 36px; }
 
 .navbar-light .navbar-nav .active > .nav-link {
@@ -449,7 +449,7 @@ COUNDOWN TIMER
   padding: 17px 28px;
   background: #ffc72c;
   border: none;
-  color: #3f4b5e;
+  color: #333;
   text-transform: uppercase; }
   .btn-success:hover {
     background-color: #ffc72c; }
@@ -466,7 +466,7 @@ COUNDOWN TIMER
   padding: 0.5rem 1.5rem;
   font-weight: 700;
   background: #ffc72c;
-  color: #3f4b5e;
+  color: #333;
   cursor: pointer; }
   .btn-form:focus {
     border: solid 1px #001489; }
@@ -484,7 +484,7 @@ COUNDOWN TIMER
 
 .center-block h2 {
   text-align: center;
-  color: #3f4b5e;
+  color: #333;
   margin: 0 0 30px; }
   .center-block h2 span {
     color: #001489;
@@ -900,7 +900,7 @@ figure.effect-lily:hover p {
    FOOTER
    ============================================================== */
 footer {
-  background: #001489;
+  background: #0B1532;
   padding: 50px 0; }
 
 @media (max-width: 768px) {
@@ -932,7 +932,7 @@ footer {
     width: 43px;
     height: 43px;
     background: #ffc72c;
-    color: #3f4b5e;
+    color: #333;
     border-radius: 50%;
     display: inline-block;
     -webkit-transition: 0.3s;
@@ -980,6 +980,17 @@ footer {
   .copyright a {
     color: #ffffff;
     margin: 20px; }
+
+.nol-footer {
+  margin-top: 34px;
+  color: #ffc72c;
+  min-height: 490px;
+  padding-bottom: 100px; }
+
+body .nol-ui h1, body.nol-ui h2, body .nol-ui h2, body.nol-ui h3, body .nol-ui h3, body.nol-ui h4, body .nol-ui h4, body.nol-ui h5, body .nol-ui h5, body.nol-ui h6, body .nol-ui h6 {
+  font-family: HelveticaCondensed, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase; }
 
 /* ==============================================================
    HEDER STYLE TWO
@@ -1239,7 +1250,7 @@ footer {
     .reviewer-name {
       margin: 18px 0 22px; } }
   .reviewer-name p {
-    color: #3f4b5e;
+    color: #333;
     font-weight: 700;
     margin: 0; }
     .reviewer-name p span {
@@ -1425,7 +1436,7 @@ footer {
   display: none; }
 
 .styled-radio label {
-  color: #3f4b5e;
+  color: #333;
   display: inline-block;
   cursor: pointer;
   font-weight: bold;
